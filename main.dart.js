@@ -78810,7 +78810,7 @@ s.toString
 A.Lv(s,0,B.fU,B.cX)},
 $S:4}
 A.Iz.prototype={
-G(a){var s=null,r=t.w,q=A.aI(a,B.G,r).w,p=A.aI(a,B.G,r).w,o=A.as_(s,s,new A.rH("https://firebasestorage.googleapis.com/v0/b/pyramids-careers.appspot.com/o/GIF%2Fhomegif.gif?alt=media&token=02978467-705a-450e-ac5b-a4bf28f34714",1,s)),n=A.aI(a,B.G,r).w
+G(a){var s=null,r=t.w,q=A.aI(a,B.G,r).w,p=A.aI(a,B.G,r).w,o=A.as_(s,s,new A.rH("assets/images/homegif.gif",1,s)),n=A.aI(a,B.G,r).w
 r=A.aI(a,B.G,r).w
 return A.iv(B.bv,A.a([new A.om(o,p.a.a,q.a.b,B.hJ,s),A.bC(s,s,A.ad(204,0,0,0),s,n.a.b,s,s,r.a.a)],t.p),B.Y,B.bH)}}
 A.ID.prototype={
