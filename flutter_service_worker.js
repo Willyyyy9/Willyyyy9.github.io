@@ -53,8 +53,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "cc18bf4c50ab4029294a7a465b319d8b
 "assets/assets/images/white_pyramids_logo.png": "cf16f54de8d777bc665cbeb46bae65c2",
 "assets/assets/images/white_pyramids_small_logo.png": "fee1bc6c8a63d68eb1520a26b078a386",
 "assets/FontManifest.json": "a419a73230ac5c03ee737608b14e4e91",
-"assets/fonts/MaterialIcons-Regular.otf": "4a8b490296435975918e09ebe81d373c",
-"assets/NOTICES": "400d42bbf891d037968d9fa700455e07",
+"assets/fonts/MaterialIcons-Regular.otf": "ea8952361624b126d0b3a3c34491e0f6",
+"assets/NOTICES": "5e99af47c822fc527a0e49d48ed26992",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d7791ef376c159f302b8ad90a748d2ab",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5070443340d1d8cceb516d02c3d6dee7",
@@ -334,9 +334,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "cc18bf4c50ab4029294a7a465b319d8b
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "bc6a7fd7da9ce6a7b06858e9c182b46e",
-"/": "bc6a7fd7da9ce6a7b06858e9c182b46e",
-"main.dart.js": "3e195b67cbcceead8f8f76158cd570be",
+"index.html": "6079127e00de6146608b1d4ed1688a02",
+"/": "6079127e00de6146608b1d4ed1688a02",
+"main.dart.js": "2fedb31374d896c5d03522d649769987",
 "manifest.json": "1094348e128ca543cea16cfb4cafe293",
 "version.json": "00e5ad2f6411328e026fb2a28b2e842d"};
 // The application shell files that are downloaded before a service worker can
