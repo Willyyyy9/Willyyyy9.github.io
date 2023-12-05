@@ -35,31 +35,34 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1051466054";
+    const serviceWorkerVersion = "2939640765";
   </script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     window.flutterWebRenderer = "html";
-  </script>
+  </script> -->
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
-<body>
-  <script>
-    window.addEventListener('load', function (ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function (engineInitializer) {
-          engineInitializer.initializeEngine().then(function (appRunner) {
-            appRunner.runApp();
-          });
-        }
+
+  <body>
+    <script>
+     window.addEventListener('load', function (ev) {
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: async function(engineInitializer) {
+            // Initialize the Flutter engine
+            let appRunner = await engineInitializer.initializeEngine({renderer: "canvaskit"});
+            // Run the app
+            await appRunner.runApp();
+          }
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
+
 
 </html>
